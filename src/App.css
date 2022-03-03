@@ -27,7 +27,95 @@
 .App-link {
   color: #61dafb;
 }
+.custom-shape-divider-top-1646023003 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
 
+.custom-shape-divider-top-1646023003 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+  transform: rotateY(200deg);
+}
+.custom-shape-divider-top-1646023627 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1646023627 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 174px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1646023627 .shape-fill {
+  fill: #82EE0CAD;
+  opacity: 0.5;
+}
+.custom-shape-divider-top-1646023003 .shape-fill {
+  fill: #82EE0CAD;
+  opacity: 0.6;
+}
+.custom-shape-divider-bottom-1646024196 {
+  position: absolute;
+  bottom: 0;
+  right:0;
+  width: 40%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1646024196 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 192px;
+}
+
+.custom-shape-divider-bottom-1646024196 .shape-fill {
+  fill: #82EE0CAD;
+  opacity:0.5;
+}
+
+.custom-shape-divider-bottom-1646024476 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 40%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  z-index: -1;
+}
+
+.custom-shape-divider-bottom-1646024476 svg {
+  position: relative;
+  display: block;
+  width: calc(165% + 1.3px);
+  height: 272px;
+  transform: rotateY(180deg);
+  z-index: -1;
+}
+
+.custom-shape-divider-bottom-1646024476 .shape-fill {
+  fill: #82EE0CAD;
+  opacity:0.7;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
